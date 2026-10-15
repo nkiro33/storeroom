@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Move Your TPT Products to Shopify (CSV Import, 2026)</title>
+<meta name="description" content="Import your Teachers Pay Teachers products into Shopify with one CSV: titles, descriptions, prices, images and tags, set up as digital products. Step by step.">
+<link rel="canonical" href="https://nkiro33.github.io/storeroom/move-tpt-to-shopify.html">
+<meta property="og:title" content="How to Move Your TPT Products to Shopify (CSV Import, 2026)">
+<meta property="og:description" content="Import your Teachers Pay Teachers products into Shopify with one CSV: titles, descriptions, prices, images and tags, set up as digital products. Step by step.">
+<meta property="og:image" content="https://nkiro33.github.io/storeroom/img/og.png">
+<meta property="og:url" content="https://nkiro33.github.io/storeroom/move-tpt-to-shopify.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="top"><div class="wrap">
+  <a class="brand" href="index.html"><img src="img/icon128.png" alt="">Storeroom</a>
+  <a href="backup-tpt-store.html">Back up</a>
+  <a href="move-tpt-to-shopify.html">Shopify</a>
+  <a href="bulk-pin-tpt-products.html">Pinterest</a>
+  <a href="tpt-exclusive-vs-basic.html">TPT's new terms</a>
+  <a href="support.html">Help</a>
+</div></nav>
+<article><div class="narrow">
+  <h1>Move your TPT products to Shopify</h1>
+  <p class="meta">Updated October 15, 2026 · 7-minute read</p>
+  <p>Shopify can import products from a CSV file, so you don't have to retype hundreds of listings. Storeroom builds that file from your TPT store, in the column format of Shopify's current product template, set up for digital downloads.</p>
+
+  <h2>1. Back up your store</h2>
+  <p>Follow <a href="backup-tpt-store.html">How to back up your TPT store</a>. That saves your listings in Storeroom.</p>
+
+  <h2>2. Download the Shopify CSV</h2>
+  <ol class="steps">
+    <li>Open <b>Storeroom › Export › Shopify</b>.</li>
+    <li>Under <b>Options</b>, choose:
+      <ul>
+        <li><b>Status after import:</b> Draft (recommended) lets you review before anything goes live.</li>
+        <li><b>Collections from:</b> Subject, Grade or Resource type.</li>
+        <li><b>Links to TPT in descriptions:</b> keep them, or remove the links and keep the text.</li>
+        <li><b>Prices:</b> keep TPT prices, or set them a little lower or higher.</li>
+      </ul>
+    </li>
+    <li>Press <b>Download Shopify CSV</b>. The file lands in Downloads › Storeroom › your-store.</li>
+  </ol>
+
+  <h3>What's in the file</h3>
+  <table class="t">
+    <tr><th>Shopify column</th><th>Comes from</th></tr>
+    <tr><td>Title, Description</td><td>Your TPT title and full formatted description</td></tr>
+    <tr><td>URL handle</td><td>Your TPT product's web address (unique per product)</td></tr>
+    <tr><td>Price, Compare-at price</td><td>Your TPT price; bundles show the bundle price with the total as compare-at</td></tr>
+    <tr><td>Tags</td><td>Grades, subjects, resource types, formats and seasons</td></tr>
+    <tr><td>Product image URL (one row per image)</td><td>All your covers and thumbnails, full size. Shopify downloads them during import.</td></tr>
+    <tr><td>Requires shipping = false, Weight = 0</td><td>Set for digital products</td></tr>
+    <tr><td>SKU</td><td><code>TPT-</code> plus your TPT product ID, handy for matching later</td></tr>
+  </table>
+
+  <h2>3. Import into Shopify</h2>
+  <ol class="steps">
+    <li>In Shopify admin, go to <b>Products</b> and click <b>Import</b>.</li>
+    <li>Choose the Storeroom CSV and click <b>Upload and preview</b>.</li>
+    <li>Check the preview, then click <b>Import products</b>. Shopify emails you when it's done; images can take a few minutes.</li>
+  </ol>
+  <div class="note">Shopify's import can't attach the downloadable files themselves. That's step 4.</div>
+
+  <h2>4. Attach your product files</h2>
+  <p>Shopify delivers digital files through an app. Shopify's own free app is called <b>Digital Downloads</b>:</p>
+  <ol>
+    <li>Install Digital Downloads from the Shopify App Store.</li>
+    <li>Open a product, choose <b>More actions › Add Digital Attachment</b>, and upload the file. One file per product variant; zip several files together if needed (<a href="https://help.shopify.com/manual/apps/apps-by-shopify/digital-downloads">Shopify's help page</a>).</li>
+    <li>Repeat for each product. Tip: start with your best sellers.</li>
+  </ol>
+  <p>When everything looks right, select the products and set them to <b>Active</b>.</p>
+
+  <h2>Good to know</h2>
+  <ul>
+    <li>Shopify charges its own monthly plan fee, so check the current plans before you move.</li>
+    <li>If you joined TPT's Exclusive Seller membership, you can't sell your teaching resources on Shopify. You can still keep a website whose buttons link to TPT (see the <a href="move-tpt-to-woocommerce.html">WooCommerce "Buy on TPT" option</a>).</li>
+    <li>Free plan: Storeroom exports 25 products. Pro exports your whole store.</li>
+  </ul>
+  <div class="next">
+    <a href="bulk-pin-tpt-products.html">Next: bulk-pin your new store to Pinterest →</a>
+    <a href="move-tpt-to-woocommerce.html">Prefer WordPress? WooCommerce guide →</a>
+  </div>
+</div></article>
+
+<footer><div class="wrap">
+  <span>Storeroom is an independent tool. It is not affiliated with or endorsed by Teachers Pay Teachers (TPT), Shopify, WooCommerce, Pinterest, Etsy or any other company named here.</span>
+  <span><a href="privacy.html">Privacy</a> · <a href="support.html">Help</a> · <a href="index.html">Home</a></span>
+</div></footer>
+</body>
+</html>

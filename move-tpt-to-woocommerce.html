@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Move Your TPT Products to WooCommerce (or a "Buy on TPT" Catalog)</title>
+<meta name="description" content="Import your Teachers Pay Teachers products into a WordPress WooCommerce shop as downloadable products, or as an Exclusive-friendly catalog whose buttons say "Buy on TPT".">
+<link rel="canonical" href="https://nkiro33.github.io/storeroom/move-tpt-to-woocommerce.html">
+<meta property="og:title" content="How to Move Your TPT Products to WooCommerce (or a "Buy on TPT" Catalog)">
+<meta property="og:description" content="Import your Teachers Pay Teachers products into a WordPress WooCommerce shop as downloadable products, or as an Exclusive-friendly catalog whose buttons say "Buy on TPT".">
+<meta property="og:image" content="https://nkiro33.github.io/storeroom/img/og.png">
+<meta property="og:url" content="https://nkiro33.github.io/storeroom/move-tpt-to-woocommerce.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="top"><div class="wrap">
+  <a class="brand" href="index.html"><img src="img/icon128.png" alt="">Storeroom</a>
+  <a href="backup-tpt-store.html">Back up</a>
+  <a href="move-tpt-to-shopify.html">Shopify</a>
+  <a href="bulk-pin-tpt-products.html">Pinterest</a>
+  <a href="tpt-exclusive-vs-basic.html">TPT's new terms</a>
+  <a href="support.html">Help</a>
+</div></nav>
+<article><div class="narrow">
+  <h1>Move your TPT products to WooCommerce</h1>
+  <p class="meta">Updated October 15, 2026 · 7-minute read</p>
+  <p>WooCommerce (the free shop plugin for WordPress) has a built-in product importer. Storeroom builds a CSV for it from your TPT store, using the column names from WooCommerce's own sample file. You can import your products in one of two ways:</p>
+  <table class="t">
+    <tr><th>Option</th><th>Best for</th><th>What buyers see</th></tr>
+    <tr><td><b>Sell downloads on my site</b></td><td>Basic sellers moving sales to their own site</td><td>An Add to cart button; they pay you and download the file from your site</td></tr>
+    <tr><td><b>Catalog: "Buy on TPT" buttons</b></td><td>Exclusive sellers who want their own website</td><td>A "Buy on TPT" button that opens the product on TPT. TPT's Exclusive rules allow own websites whose Buy buttons link to TPT.</td></tr>
+  </table>
+
+  <h2>1. Back up your store</h2>
+  <p>Follow <a href="backup-tpt-store.html">How to back up your TPT store</a>.</p>
+
+  <h2>2. Download the WooCommerce CSV</h2>
+  <ol class="steps">
+    <li>Open <b>Storeroom › Export › WooCommerce</b> and open <b>Options</b>.</li>
+    <li>Pick <b>Product type</b>: "Sell downloads on my site" or "Catalog: Buy on TPT buttons".</li>
+    <li>Pick <b>After import</b>: Draft (review first) or Published, and how to build <b>categories</b> (subject, grade or resource type; subjects keep TPT's hierarchy, like <i>Math &gt; Fractions</i>).</li>
+    <li>Press <b>Download WooCommerce CSV</b>.</li>
+  </ol>
+
+  <h2>3. Import into WooCommerce</h2>
+  <ol class="steps">
+    <li>In WordPress, go to <b>Products › All Products</b> and click <b>Import</b> at the top.</li>
+    <li>Choose the Storeroom CSV and click <b>Continue</b>. The columns match automatically; click <b>Run the importer</b>.</li>
+    <li>WooCommerce downloads your cover images from their web addresses during the import, so large stores can take a while.</li>
+  </ol>
+
+  <h2>4. Add your files (downloads option only)</h2>
+  <p>The CSV leaves the download link empty on purpose, because your files aren't on your site yet. For each product: <b>Edit › Product data › Downloadable files › Add File</b>, upload your PDF or ZIP, and update. Download limits are left blank, which WooCommerce treats as unlimited downloads.</p>
+  <div class="note">Storeroom keeps your TPT product ID and link on every WooCommerce product as hidden custom fields (<code>_tpt_product_id</code>, <code>_tpt_url</code>), handy for matching files later.</div>
+
+  <h2>Good to know</h2>
+  <ul>
+    <li>You need WordPress hosting with WooCommerce installed. Many hosts offer one-click WooCommerce installs.</li>
+    <li>To take payments, connect a payment option in WooCommerce › Settings › Payments.</li>
+    <li>Free plan: 25 products. Pro: your whole store.</li>
+  </ul>
+  <div class="next">
+    <a href="bulk-pin-tpt-products.html">Next: bulk-pin your products to Pinterest →</a>
+    <a href="tpt-exclusive-vs-basic.html">Exclusive or Basic? What TPT allows →</a>
+  </div>
+</div></article>
+
+<footer><div class="wrap">
+  <span>Storeroom is an independent tool. It is not affiliated with or endorsed by Teachers Pay Teachers (TPT), Shopify, WooCommerce, Pinterest, Etsy or any other company named here.</span>
+  <span><a href="privacy.html">Privacy</a> · <a href="support.html">Help</a> · <a href="index.html">Home</a></span>
+</div></footer>
+</body>
+</html>
